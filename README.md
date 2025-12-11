@@ -9,6 +9,8 @@ gcc -std=c11 -Wall -Wextra -O2 utils.c qx.c -o qx.
 ```
 
 ## question1
+<img width="345" height="93" alt="image1" src="https://github.com/user-attachments/assets/c24128b1-dd9d-4f0a-99c4-50c3cb35ed57" />
+
 
 STDOUT_FILENO est le descripteur système de la sortie standard utilisé avec write() pour un affichage direct sans buffering, contrairement à l’utilisation classique de stdout c'est pire encore avec printf
 Dans cette question on affiche simplement le message dans le shell.
